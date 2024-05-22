@@ -1,5 +1,5 @@
 {% set name = "openinference-instrumentation-mistralai" %}
-{% set version = "0.0.6" %}
+{% set version = "0.0.7" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/openinference_instrumentation_mistralai-{{ version }}.tar.gz
-  sha256: ad7f7d41e7d07ce9e49db80acdf2ae15bf8a77da77377bf23ba1351054e509fb
+  sha256: 05d807848576a08bd2df9fff5020f94d28053bf067f85941d168e796140524f1
 
 build:
   noarch: python
@@ -24,7 +24,7 @@ requirements:
     - opentelemetry-api
     - opentelemetry-instrumentation
     - opentelemetry-semantic-conventions
-    - openinference-instrumentation >=0.1.5
+    - openinference-instrumentation >=0.1.7
     - openinference-semantic-conventions
     - wrapt
 
