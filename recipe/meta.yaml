@@ -1,5 +1,5 @@
 {% set name = "openinference-instrumentation-mistralai" %}
-{% set version = "2.0.3" %}
+{% set version = "2.0.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/openinference_instrumentation_mistralai-{{ version }}.tar.gz
-  sha256: 76cfb56f7b7024be83554ca5d4537515b4040d5aff8279163f022d16510a4fe3
+  sha256: c0b6bb5906387b260a31d452cf75c573003a6859f40317b781b059ac25ca7267
 
 build:
   noarch: python
